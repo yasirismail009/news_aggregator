@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction, PayloadActionCreator } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface ArticleState {
   articles: any[];

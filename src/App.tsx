@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -7,7 +6,7 @@ import ArticleList from './components/ArticleList';
 import Filters from './components/Filters';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
-import dayjs, { Dayjs } from 'dayjs';
+import { Dayjs } from 'dayjs';
 
 function App() {
    const [selectedDate, setSelectedDate] = useState<Dayjs | null>(null);

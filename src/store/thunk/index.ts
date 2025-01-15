@@ -13,7 +13,7 @@ export const fetchArticles = (filters: any) => async (dispatch: AppDispatch) => 
 
   try {
     console.log("filters",filters)
-    const { keyword,category, source,from } = filters;
+    const { keyword, source} = filters;
     let newsApiRes, guardianApiRes, nytApiRes;
 
     // Make API call based on selected source

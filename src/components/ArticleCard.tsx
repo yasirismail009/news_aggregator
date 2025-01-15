@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Typography, Button, Card, CardActionArea, CardMedia, CardContent, CardActions, Tooltip, Divider, Box, Chip, Avatar } from '@mui/material';
+import { Typography, Button, Card, CardActionArea, CardMedia, CardContent, CardActions, Tooltip, Divider, Box } from '@mui/material';
 import NewsPlaceHolder from '../assets/news_placeholdere.jpg'
 import { formatDate } from '../utils/dateTime';
 
