@@ -11,9 +11,10 @@ This project can be run in a Docker container for easy setup and deployment. Fol
 ### 1. Clone the repository (if you haven't already):
 
 ```bash
-git clone news_aggregator
+git clone [news_aggregator](https://github.com/yasirismail009/news_aggregator.git)
 cd news_aggregator
 
 docker build -t news_aggregator .
 docker run -p 3000:3000 news_aggregator
+docker ps
 docker stop <container-id>
